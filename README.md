@@ -1,2 +1,3 @@
 # fox-calendar
-Calendário com tema de raposa
+
+O "Calendário de Raposa" é um encantador projeto em desenvolvimento, construído com HTML, CSS e JavaScript. Desenvolvido em pequenos blocos de código, o calendário busca oferecer não apenas funcionalidade, mas também uma experiência visual atraente com imagens de raposas em cada mês. A abordagem incremental permite flexibilidade, e o uso do JavaScript visa tornar a experiência mais dinâmica, destacando o dia atual e adicionando interatividade. Este projeto está em constante evolução, e cada adição de código representa um passo em direção a um calendário único e interativo. Explore e fique atento às atualizações, pois a jornada continua!

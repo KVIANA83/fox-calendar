@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Poor+Story&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  font-family: 'Lexend Deca', 'Poor Story', 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calendario-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 400px;
+  border: 1px solid transparent;
+  box-shadow: 5px 5px 5px 5px #ffffff50;
+}
+
+.lado-esquerdo{
+  float: left;
+  border-radius: 10px 0 0 10px;
+  width: 220px;
+  height: 400px;
+  background-color: #ff4500;
+}
+
+.lado-direito{
+  float: right;
+  border-radius: 0 10px 10px 0;
+  width: 300px;
+  height: 400px;
+  background-image: url('../images/images (6).jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.meses select{
+  font-size: 18px;
+  align-items: center;
+  color: #ff4500;
+  background-color: #ffffff70;
+  padding: 2px;
+  margin-top: 60px;
+  margin-left: 90px;
+}
+
+table{
+  background-color: #ffffff70;
+  width: 290px;
+ /* height: 150px; */
+  padding: 15px;
+  border-collapse: collapse;
+}
+
+table .semanas tr {
+  color: #ff4500;
+  font-size: 14px;
+}
+
+tbody td {
+  border-top: 2px solid #ffffff;
+  padding: 5px;
+  text-align: center;
+}
+
+/*
+table .semanas tr{
+  color: #ff4500;
+  font-size: 14px;
+}
+
+tbody td{
+  border-block-start: 2px solid #ffffff;
+}
+*/
+
+.anos{
+  color: #fff;
+  font-size: 70px;
+  text-align: left;
+  margin: 0;
+}
+
+.relogio{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.info-data{
+  display: flex;
+  align-items: flex-end;
+  justify-content: inline-block;
+  margin-left: 50px;
+}
+
+.dia, .mes, .ano-data{
+  font-size: 20px;
+  color: #fff;
+}

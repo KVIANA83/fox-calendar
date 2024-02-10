@@ -8,6 +8,7 @@
 }
 
 body{
+  background: #FFA07A;
   height: 100vh; 
   display: flex;
   align-items: center;
@@ -21,7 +22,8 @@ body{
   width: 500px;
   height: 400px;
   border: 1px solid transparent;
-  box-shadow: 5px 5px 5px 5px #ffffff50;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px 5px #ffffff80;
 }
 
 .lado-esquerdo{
@@ -50,6 +52,8 @@ body{
   padding: 2px;
   margin-top: 60px;
   margin-left: 90px;
+  border: 1px solid transparent;
+  border-radius: 6px;
 }
 
 table{
@@ -60,9 +64,10 @@ table{
   border-collapse: collapse;
 }
 
-table .semanas tr {
+table .semanas tr th{
   color: #ff4500;
   font-size: 14px;
+  padding: 3px;
 }
 
 tbody td {
@@ -82,17 +87,20 @@ tbody td{
 }
 */
 
-.anos{
+.anos select{
   color: #fff;
-  font-size: 70px;
+  background-color: #ff4500;
+  font-size: 60px;
   text-align: left;
   margin: 0;
+  border: 1px solid transparent;
+  border-radius: 6px;
 }
 
 .relogio{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100px;
   height: 100px;
   margin-left: 50px;
